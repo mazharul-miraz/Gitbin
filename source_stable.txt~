@@ -27,3 +27,16 @@ class BinarySearchExample1{
       mid = (first + last)/2;
    }
 
+BETA version ready to ship
+=====================
+       public static void main(String args[]){
+        int arr[] = {10,20,30,40,50};
+        int key = 30;
+        int last=arr.length-1;
+        int result = binarySearch(arr,0,last,key);
+        if (result == -1)
+            System.out.println("Element is not found!");
+        else
+            System.out.println("Element is found at index: "+result);
+    }
+
