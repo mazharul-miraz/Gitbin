@@ -1,0 +1,29 @@
+i am current version 1.0.9
+====================
+class BinarySearchExample1{
+    public static int binarySearch(int arr[], int first, int last, int key){
+        if (last>=first){
+            int mid = first + (last - first)/2;
+            if (arr[mid] == key){
+            return mid;
+            }
+   }
+
+   i am current version 1.2.0
+====================
+
+  class BinarySearchExample{
+ public static void binarySearch(int arr[], int first, int last, int key){
+   int mid = (first + last)/2;
+   while( first <= last ){
+      if ( arr[mid] < key ){
+        first = mid + 1;
+      }else if ( arr[mid] == key ){
+        System.out.println("Element is found at index: " + mid);
+        break;
+      }else{
+         last = mid - 1;
+      }
+      mid = (first + last)/2;
+   }
+
