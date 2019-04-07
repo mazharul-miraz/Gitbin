@@ -10,7 +10,7 @@ class BinarySearchExample1{
    }
 
    i am current version 1.2.0
-====================
+=====================
 
   class BinarySearchExample{
  public static void binarySearch(int arr[], int first, int last, int key){
